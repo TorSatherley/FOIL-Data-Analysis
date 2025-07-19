@@ -22,3 +22,19 @@ Customer ID is an essential column for any customer-behaviour based insight, suc
 - repeat purchases
 - customer retention
 - average spend per customer
+
+## Cancellation rate:
+
+The data set shows a cancellation rate of 10%, which is considerably higher than typical e-commerce benchmarks (2-5%). Resons for this could include: 
+- Stock mismanagement (items sold out after order)
+- Customer change of mind
+- Confusing website/product descriptions
+- Poor checkout UX or shipping issues
+- Duplicate/mistaken orders
+
+If 10% of orders are cancelled, that means: 
+- That’s 10% of logistics and staff time potentially wasted.
+- Inventory management and forecasting are affected.
+- Revenue projections may be inflated unless cancellations are accounted for.
+
+Investigating the causes of these cancellations could reveal operational inefficiencies or customer experience issues that, if resolved, might significantly improve profitability and customer retention.
