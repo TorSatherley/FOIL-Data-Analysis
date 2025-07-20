@@ -1,4 +1,6 @@
 import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 df = pd.read_pickle('../data/sales_level_dataset.pkl')
 
@@ -59,8 +61,6 @@ chi2, p, dof, expected = chi2_contingency(contingency)
 with open('../outputs/deeper-exploration.txt', 'a') as log:
     log.write(f"\nChi-squared test p-value: {p:.4f}\n")
 
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 # Top 10 countries by cancellation rate
 top_cancel_countries = country_cancellation.head(10).reset_index()

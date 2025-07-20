@@ -3,6 +3,15 @@ import pandas as pd
 # Base dataset
 df = pd.read_excel('../data/Online Retail.xlsx', engine='openpyxl')
 
+# Identify and remove any double or trailing spaces and remove
+df['Description'] = (
+    df['Description']
+    .astype(str)
+    .str.strip()              # Remove leading/trailing whitespace
+    .str.replace(r'\s+', ' ', regex=True)  # Replace multiple spaces with a single space
+    .str.upper()              # Standardise casing to uppercase
+)
+
 # Iduntify non-SKU codes and filter them out
 exclude_codes = ['D', 'S', 'AMAZONFEE', 'BANK CHARGES', 'M']
 df = df[~df['StockCode'].isin(exclude_codes)].copy()

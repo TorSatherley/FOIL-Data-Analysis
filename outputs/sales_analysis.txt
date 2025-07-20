@@ -1,0 +1,27 @@
+💰 Total Sales (excluding cancellations): £10,552,461.01
+Average Order Value: £394.33
+
+🏆 Top 20 Products by Quantity Sold:
+   StockCode                         Description  Quantity  UnitPrice
+0      23843         PAPER CRAFT , LITTLE BIRDIE     80995       2.08
+1      23166      MEDIUM CERAMIC TOP STORAGE JAR     78033       1.47
+2      84077   WORLD WAR 2 GLIDERS ASSTD DESIGNS     55047       0.32
+3     85099B             JUMBO BAG RED RETROSPOT     48478       2.48
+4     85123A  WHITE HANGING HEART T-LIGHT HOLDER     37603       3.11
+5      22197                      POPCORN HOLDER     36761       1.02
+6      84879       ASSORTED COLOUR BIRD ORNAMENT     36461       1.72
+7      21212     PACK OF 72 RETROSPOT CAKE CASES     36419       0.76
+8      23084                  RABBIT NIGHT LIGHT     30788       2.38
+9      22492              MINI PAINT SET VINTAGE     26633       0.79
+10     22616           PACK OF 12 LONDON TISSUES     26339       0.45
+11     21977  PACK OF 60 PINK PAISLEY CAKE CASES     24854       0.74
+12     22178     VICTORIAN GLASS HANGING T-LIGHT     24304       1.64
+13     15036           ASSORTED COLOURS SILK FAN     23826       1.07
+14     17003                  BROCADE RING PURSE     23056       0.36
+15     21915                RED HARMONICA IN BOX     21933       1.42
+16     22386             JUMBO BAG PINK POLKADOT     21465       2.60
+17     22197                SMALL POPCORN HOLDER     20160       1.07
+18     22086      PAPER CHAIN KIT 50'S CHRISTMAS     19355       3.36
+19     20725             LUNCH BAG RED RETROSPOT     19353       2.13
+
+📦 On average, each item sold 1343.23 units across the year.
