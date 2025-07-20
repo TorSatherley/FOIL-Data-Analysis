@@ -2,39 +2,20 @@
 
 ## Overview
 
-I've decided to take a dual-path approach to the analysis of this data set. During my exporation of the data, I realised that around a quarter of the customerID fields were missing. This meant that, depending on which insights I'm trying to attain, there are two important ways to process the data. 
+This is an analysis of an Excel format dataset containing all transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based online retail company. Columns are:​
 
-### Leave the missing CustomerID rows for sales-level insights
+InvoiceNo|StockCode|Description|InvoiceDate|UnitPrice|CustomerID|Country​
 
-Customer ID isn't a data point that is needed for sales-level insights, such as:
-- Total revenue
-- Product/category analysis
-- Top-sellling products
-- Time/date based trends
-- Location based analysis
-- Average order value
+with several thousand rows of data.
 
-It's best to leave them in for this part of the data analysis.
+## Purpose
 
-### Drop rows where CustomerID is missing for customer-behaviour insights
+The purpose is to understand the sales performance and customer behaviour for this online retailer, to enable informed business decisions to take place. ​
 
-Customer ID is an essential column for any customer-behaviour based insight, such as:
-- repeat purchases
-- customer retention
-- average spend per customer
+The analysis should make insights that could help improve the business. This is done by identifying trends, patterns, and potential areas of growth or improvement, with recommendations given. 
 
-## Cancellation rate:
+## Tools and Techniques: ​
 
-The data set shows a cancellation rate of 10%, which is considerably higher than typical e-commerce benchmarks (2-5%). Reasons for this could include: 
-- Stock mismanagement (items sold out after order)
-- Customer change of mind
-- Confusing website/product descriptions
-- Poor checkout UX or shipping issues
-- Duplicate/mistaken orders
+Python and the Pandas library was used to explore and analyse the data, with the library Matplotlib used to create the visuals for the data. These tools were chosen for their proven robustness and versatility in the data analysis field.​
 
-If 10% of orders are cancelled, that means: 
-- That’s 10% of logistics and staff time potentially wasted.
-- Inventory management and forecasting are affected.
-- Revenue projections may be inflated unless cancellations are accounted for.
-
-Investigating the causes of these cancellations could reveal operational inefficiencies or customer experience issues that, if resolved, might significantly improve profitability and customer retention.
+A LLM (ChatGPT) was used to aid in coding and general workflow optimisations.
