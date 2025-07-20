@@ -5,6 +5,19 @@ import seaborn as sns
 
 df = pd.read_pickle('../data/customer_behaviour_dataset.pkl')
 
+# Standardise all codes to uppercase
+df['StockCode'] = df['StockCode'].astype(str).str.upper()
+# Define unwanted stock codes and patterns
+unwanted_exact = [
+    'AMAZONFEE', 'B', 'BANK CHARGES', 'C2', 'CRUK',
+    'D', 'DOT', 'M', 'POST', 'S'
+]
+# Filter out unwanted codes
+df = df[
+    ~df['StockCode'].isin(unwanted_exact) & # Remove exact matches
+    ~df['StockCode'].str.startswith('GIFT') # Remove anything starting with 'GIFT'
+].copy()
+
 # Flag any cancelled orders
 df['IsCancelled'] = df['InvoiceNo'].astype(str).str.startswith('C')
 
@@ -13,9 +26,9 @@ df_customers = df[~df['IsCancelled']].copy()
 
 ## Revenue By Customer ## 
 # Make sure InvoiceDate is datetime
-df_customers['InvoiceDate'] = pd.to_datetime(df['InvoiceDate'])
+df_customers['InvoiceDate'] = pd.to_datetime(df_customers['InvoiceDate'])
 # Calculate revenue per row if not done yet
-df_customers['Revenue'] = df['Quantity'] * df['UnitPrice']
+df_customers['Revenue'] = df_customers['Quantity'] * df_customers['UnitPrice']
 # Group by customer (assuming 'CustomerID' column)
 customer_stats = df_customers.groupby('CustomerID').agg(
     total_revenue=('Revenue', 'sum'),

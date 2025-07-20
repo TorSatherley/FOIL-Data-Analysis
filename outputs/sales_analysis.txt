@@ -1,5 +1,5 @@
-💰 Total Sales (excluding cancellations): £10,552,461.01
-Average Order Value: £394.33
+💰 Total Sales (excluding cancellations): £10,644,560.42
+Average Order Value: £469.57
 
 🏆 Top 20 Products by Quantity Sold:
    StockCode                         Description  Quantity  UnitPrice
@@ -7,7 +7,7 @@ Average Order Value: £394.33
 1      23166      MEDIUM CERAMIC TOP STORAGE JAR     78033       1.47
 2      84077   WORLD WAR 2 GLIDERS ASSTD DESIGNS     55047       0.32
 3     85099B             JUMBO BAG RED RETROSPOT     48478       2.48
-4     85123A  WHITE HANGING HEART T-LIGHT HOLDER     37603       3.11
+4     85123A  WHITE HANGING HEART T-LIGHT HOLDER     37895       3.21
 5      22197                      POPCORN HOLDER     36761       1.02
 6      84879       ASSORTED COLOUR BIRD ORNAMENT     36461       1.72
 7      21212     PACK OF 72 RETROSPOT CAKE CASES     36419       0.76
@@ -24,4 +24,27 @@ Average Order Value: £394.33
 18     22086      PAPER CHAIN KIT 50'S CHRISTMAS     19355       3.36
 19     20725             LUNCH BAG RED RETROSPOT     19353       2.13
 
-📦 On average, each item sold 1343.23 units across the year.
+📦 On average, each item sold 1382.35 units across the year.
+
+💰 Top 20 Products by Total Revenue:
+   StockCode                         Description    Revenue  UnitPrice
+0      22423            REGENCY CAKESTAND 3 TIER  174484.74      13.96
+1      23843         PAPER CRAFT , LITTLE BIRDIE  168469.60       2.08
+2     85123A  WHITE HANGING HEART T-LIGHT HOLDER  106292.77       3.21
+3      47566                       PARTY BUNTING   99504.33       5.79
+4     85099B             JUMBO BAG RED RETROSPOT   94340.05       2.48
+5      23166      MEDIUM CERAMIC TOP STORAGE JAR   81700.92       1.47
+6      23084                  RABBIT NIGHT LIGHT   66964.99       2.38
+7      22086      PAPER CHAIN KIT 50'S CHRISTMAS   64952.29       3.36
+8      84879       ASSORTED COLOUR BIRD ORNAMENT   59094.93       1.72
+9      79321                       CHILLI LIGHTS   54117.76       6.76
+10     23298                      SPOTTY BUNTING   42548.13       5.51
+11     22386             JUMBO BAG PINK POLKADOT   42436.24       2.60
+12     21137            BLACK RECORD COVER FRAME   40652.13       4.21
+13     22502      PICNIC BASKET WICKER 60 PIECES   39619.50     649.50
+14     23284       DOORMAT KEEP CALM AND COME IN   38166.64       8.77
+15     22720    SET OF 3 CAKE TINS PANTRY DESIGN   38158.39       5.83
+16     22960            JAM MAKING SET WITH JARS   37128.88       5.07
+17     82484   WOOD BLACK BOARD ANT WHITE FINISH   36030.22       8.44
+18     20725             LUNCH BAG RED RETROSPOT   35752.01       2.13
+19     22197                      POPCORN HOLDER   34298.87       1.02

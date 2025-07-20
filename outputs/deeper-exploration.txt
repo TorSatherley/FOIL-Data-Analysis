@@ -1,11 +1,11 @@
 Cancelled order breakdown:
  IsCancelled
-False    532278
-True       8849
+False    530259
+True       8704
 Name: count, dtype: int64
 
-Total cancelled revenue: £-498,597.14
-Cancelled orders account for -4.96% of all revenue.
+Total cancelled revenue: £-478,724.18
+Cancelled orders account for -4.89% of all revenue.
 
 Top 10 Products by Cancellation Rate (min 20 orders):
            total_orders  cancelled_orders  cancel_rate
@@ -25,14 +25,38 @@ Top 10 Countries by Cancellation Rate:
                 total_orders  cancelled_orders  cancel_rate
 Country                                                    
 USA                      291               112     0.384880
-Czech Republic            30                 5     0.166667
-Malta                    127                15     0.118110
+Czech Republic            28                 4     0.142857
+Malta                    123                14     0.113821
 Saudi Arabia              10                 1     0.100000
 Japan                    355                34     0.095775
-Australia               1259                74     0.058777
-Italy                    801                43     0.053683
+Australia               1257                73     0.058075
+Italy                    783                42     0.053640
 Bahrain                   19                 1     0.052632
-Germany                 9479               446     0.047051
-EIRE                    8183               294     0.035928
+Germany                 9096               437     0.048043
+EIRE                    8075               292     0.036161
 
 Chi-squared test p-value: 0.0000
+
+Top 10 Countries by Revenue Percentage:
+                 country_revenue revenue_pct
+Country                                     
+United Kingdom       8301718.283      84.77%
+Netherlands           283479.540       2.89%
+EIRE                  259663.460       2.65%
+Germany               200808.400       2.05%
+France                182163.390       1.86%
+Australia             136990.000       1.40%
+Switzerland            52505.350       0.54%
+Spain                  51765.200       0.53%
+Belgium                36662.960       0.37%
+Japan                  35419.790       0.36%
+Sweden                 35176.910       0.36%
+Norway                 32292.960       0.33%
+Portugal               26871.520       0.27%
+Channel Islands        19936.290       0.20%
+Finland                18303.540       0.19%
+Denmark                18042.140       0.18%
+Italy                  15276.340       0.16%
+Cyprus                 12931.290       0.13%
+Hong Kong               9942.040       0.10%
+Singapore               9120.390       0.09%
