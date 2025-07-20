@@ -1,0 +1,69 @@
+Initial data shape: (541909, 8)
+
+Missing values per column:
+ InvoiceNo           0
+StockCode           0
+Description      1454
+Quantity            0
+InvoiceDate         0
+UnitPrice           0
+CustomerID     135080
+Country             0
+dtype: int64
+
+Data types:
+ InvoiceNo              object
+StockCode              object
+Description            object
+Quantity                int64
+InvoiceDate    datetime64[ns]
+UnitPrice             float64
+CustomerID            float64
+Country                object
+dtype: object
+
+Sample data:
+   InvoiceNo StockCode                          Description  Quantity         InvoiceDate  UnitPrice  CustomerID         Country
+0    536365    85123A   WHITE HANGING HEART T-LIGHT HOLDER         6 2010-12-01 08:26:00       2.55     17850.0  United Kingdom
+1    536365     71053                  WHITE METAL LANTERN         6 2010-12-01 08:26:00       3.39     17850.0  United Kingdom
+2    536365    84406B       CREAM CUPID HEARTS COAT HANGER         8 2010-12-01 08:26:00       2.75     17850.0  United Kingdom
+3    536365    84029G  KNITTED UNION FLAG HOT WATER BOTTLE         6 2010-12-01 08:26:00       3.39     17850.0  United Kingdom
+4    536365    84029E       RED WOOLLY HOTTIE WHITE HEART.         6 2010-12-01 08:26:00       3.39     17850.0  United Kingdom
+Cancelled order breakdown:
+ IsCancelled
+False    532621
+True       9288
+Name: count, dtype: int64
+
+Total cancelled revenue: £-896,812.49
+Cancelled orders account for -9.20% of all revenue.
+
+Top 10 Products by Cancellation Rate (min 20 orders):
+              total_orders  cancelled_orders  cancel_rate
+StockCode                                                
+D                       77                77     1.000000
+S                       63                61     0.968254
+AMAZONFEE               34                32     0.941176
+BANK CHARGES            37                25     0.675676
+M                      571               244     0.427320
+23064                   34                10     0.294118
+85232B                  22                 6     0.272727
+22656                   27                 6     0.222222
+23462                   59                12     0.203390
+22461                   67                13     0.194030
+
+Top 10 Countries by Cancellation Rate:
+                total_orders  cancelled_orders  cancel_rate
+Country                                                    
+USA                      291               112     0.384880
+Czech Republic            30                 5     0.166667
+Malta                    127                15     0.118110
+Japan                    358                37     0.103352
+Saudi Arabia              10                 1     0.100000
+Australia               1259                74     0.058777
+Italy                    803                45     0.056040
+Bahrain                   19                 1     0.052632
+Germany                 9495               453     0.047709
+EIRE                    8196               302     0.036847
+
+Chi-squared test p-value: 0.0000
