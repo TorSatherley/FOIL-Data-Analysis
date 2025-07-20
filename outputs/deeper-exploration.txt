@@ -1,0 +1,38 @@
+Cancelled order breakdown:
+ IsCancelled
+False    532278
+True       8849
+Name: count, dtype: int64
+
+Total cancelled revenue: £-498,597.14
+Cancelled orders account for -4.96% of all revenue.
+
+Top 10 Products by Cancellation Rate (min 20 orders):
+           total_orders  cancelled_orders  cancel_rate
+StockCode                                             
+23064                34                10     0.294118
+85232B               22                 6     0.272727
+22656                27                 6     0.222222
+23462                59                12     0.203390
+22461                67                13     0.194030
+85159B               72                13     0.180556
+22655                47                 8     0.170213
+79191C               78                13     0.166667
+35004C               49                 8     0.163265
+22198               103                15     0.145631
+
+Top 10 Countries by Cancellation Rate:
+                total_orders  cancelled_orders  cancel_rate
+Country                                                    
+USA                      291               112     0.384880
+Czech Republic            30                 5     0.166667
+Malta                    127                15     0.118110
+Saudi Arabia              10                 1     0.100000
+Japan                    355                34     0.095775
+Australia               1259                74     0.058777
+Italy                    801                43     0.053683
+Bahrain                   19                 1     0.052632
+Germany                 9479               446     0.047051
+EIRE                    8183               294     0.035928
+
+Chi-squared test p-value: 0.0000

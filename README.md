@@ -25,7 +25,7 @@ Customer ID is an essential column for any customer-behaviour based insight, suc
 
 ## Cancellation rate:
 
-The data set shows a cancellation rate of 10%, which is considerably higher than typical e-commerce benchmarks (2-5%). Resons for this could include: 
+The data set shows a cancellation rate of 10%, which is considerably higher than typical e-commerce benchmarks (2-5%). Reasons for this could include: 
 - Stock mismanagement (items sold out after order)
 - Customer change of mind
 - Confusing website/product descriptions

@@ -16,4 +16,6 @@ if 'TotalPrice' not in df_sales.columns:
 # Sum them all
 total_sales = df_sales['TotalPrice'].sum()
 
-print(f"💰 Total Sales (excluding cancellations): £{total_sales:,.2f}")
+with open('../outputs/analysis.txt', 'a') as log:
+    log.write(f"💰 Total Sales (excluding cancellations): £{total_sales:,.2f}\n")
+
